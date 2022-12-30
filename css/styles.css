@@ -1,0 +1,148 @@
+canvas {
+    /* border: 1px solid black; */
+    margin-left: 25%;
+    margin-right: auto;
+    margin-top: 200px;
+    display: block;
+    background-color: rgb(255, 186, 137, 0.6);
+    border-radius: 10px;
+    background-image: url("../images/pongpeli3.png");
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: contain;
+}
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(182, 82, 87);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(237, 229, 195);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 95%;
+}
+h3 {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(237, 229, 195);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 75%;
+}
+#text{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    position: absolute;
+    top: 40%;
+    left: 28.7%;
+}
+
+#score{
+    position: absolute;
+    top: 43%;
+    left: 28.53%;
+}
+#score2{
+    position: absolute;
+    top: 15%;
+    left: 17.53%;
+}
+#scorePop{
+    position: absolute;
+    left:27.2%;
+    top: 15.93%;
+    background-repeat: no-repeat;
+}
+#win{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    color: rgb(237, 229, 195);
+    /* transform:translate(-50%, -50%); */
+}
+#lose{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    /* transform:translate(-50%, -50%); */
+}
+#mad{
+    position: absolute;
+    top: 35.7%;
+    left: 58.45%;
+}
+button {
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    outline: none;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(237, 229, 195);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 75%;
+}
+#restart {
+    background-image: url(../images/refresh3.png);
+    background-size: 90%;
+    top:50%;
+    left: 32.52%;
+}
+#pause {
+    background-image: url(../images/pause1.png);
+    background-size: 90%;
+    top:21.5%;
+    left: 22%;
+    
+}
+#resume {
+    background-image: url(../images/resume.png);
+    background-size: 90%;
+    top:21.5%;
+    left: 22%;
+}
+
+#onePlayer {
+    background-image: url(../images/mode1.png);
+    height: 53px;
+    width: 166px;
+    top:39%;
+    left: 29.3%;
+}
+#twoPlayer {
+    background-image: url(../images/mode1.png);
+    height: 53px;
+    width: 166px;
+    top:45%;
+    left: 29.3%;
+}
+#about {
+    background-image: url(../images/about.png);
+    background-size: 90%;
+    top:28.5%;
+    left: 22%;
+}
+#about2 {
+    background-image: url(../images/about.png);
+    background-size: 90%;
+    top:21.5%;
+    left: 22%;
+}
+#aboutH1 {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(237, 229, 195);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 95%;
+}
+p {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 120%;
+}
+body {
+    background-image: url("../images/billyF.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
